@@ -3,12 +3,12 @@ import json
 
 # Get API_ID and API_HASH from https://my.telegram.org -> API Development Tools
 # Get BOT_TOKEN from @BotFather on Telegram
-API_ID    = int(os.environ.get('API_ID',    '0'))   # your Telegram API ID (integer)
-API_HASH  =     os.environ.get('API_HASH',  '')     # your Telegram API hash
-BOT_TOKEN =     os.environ.get('BOT_TOKEN', '')     # your bot token from @BotFather
+API_ID    = int(os.environ.get('32143521',    '0'))   # your Telegram API ID (integer)
+API_HASH  =     os.environ.get('273161fdfe0b9256e1baca74825672fb',  '')     # your Telegram API hash
+BOT_TOKEN =     os.environ.get('9145445511:AAGQR509ebSAm2riQb-5I2OhBq_2IxUbq2E', '')     # your bot token from @BotFather
 TG_API    = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
-BOT_BRAND      = 'VXO ◈ Checker'
+BOT_BRAND      = 'ROWDY ◈ Checker'
 OWNER_NAME     = 'Your Name'                        # display name shown in bot messages
 OWNER_USERNAME = 'yourusername'                     # your Telegram username (without @)
 OWNER_ID       = 0                                  # your Telegram user ID (integer)
